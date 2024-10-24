@@ -12,4 +12,4 @@
 
 ## Vendor Categories and Manufacturer Mapping to Products and Profile Viewing
 
-<video controls src="videos/vendor_sigin_signup.mp4" title="Title"></video>
+<video controls src="https://drive.google.com/file/d/1Mfl5KkN_P0ZIxybyJpJ-ZN-cBbsyNrzg/view?usp=sharing" title="Title"></video>
