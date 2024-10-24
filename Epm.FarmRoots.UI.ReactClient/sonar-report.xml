@@ -1,0 +1,351 @@
+<testExecutions version="1">
+  <file path="src\components\__tests__\AddProduct.test.tsx">
+    <testCase name="AddProduct Component Tests - component should render input elements for product details" duration="118" />
+    <testCase name="AddProduct Component Tests - fields should have initial empty or default values" duration="34" />
+    <testCase name="AddProduct Component Tests - should display error message when required fields are empty on submit" duration="152" />
+  </file>
+  <file path="src\components\__tests__\VendorProducts.test.tsx">
+    <testCase name="ProductListPage - renders loading shimmer initially" duration="96" />
+    <testCase name="ProductListPage - renders product table after loading" duration="85" />
+    <testCase name="ProductListPage - displays no products found when products array is empty" duration="1033">
+      <error message="Unable to find an element with the text: No products found. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m&lt;body&gt;[39m
+  [36m&lt;div&gt;[39m
+    [36m&lt;div[39m
+      [33mclass[39m=[32m&quot;flex flex-col md:flex-row&quot;[39m
+    [36m&gt;[39m
+      [36m&lt;div[39m
+        [33mclass[39m=[32m&quot; bg-gray-800  p-4 text-white fixed&quot;[39m
+      [36m/&gt;[39m
+      [36m&lt;div[39m
+        [33mclass[39m=[32m&quot;md:ml-64 mt-12 w-full&quot;[39m
+      [36m&gt;[39m
+        [36m&lt;div[39m
+          [33mclass[39m=[32m&quot;mt-12 p-2&quot;[39m
+        [36m&gt;[39m
+          [36m&lt;div[39m
+            [33mclass[39m=[32m&quot;container mx-auto&quot;[39m
+          [36m&gt;[39m
+            [36m&lt;div[39m
+              [33mclass[39m=[32m&quot;flex justify-between items-center mb-4&quot;[39m
+            [36m&gt;[39m
+              [36m&lt;h1[39m
+                [33mclass[39m=[32m&quot;text-2xl font-bold&quot;[39m
+              [36m&gt;[39m
+                [0mProduct List[0m
+              [36m&lt;/h1&gt;[39m
+            [36m&lt;/div&gt;[39m
+            [36m&lt;div[39m
+              [33mclass[39m=[32m&quot;overflow-x-auto&quot;[39m
+            [36m&gt;[39m
+              [36m&lt;table[39m
+                [33mclass[39m=[32m&quot;min-w-full bg-white border border-gray-200&quot;[39m
+              [36m&gt;[39m
+                [36m&lt;thead&gt;[39m
+                  [36m&lt;tr[39m
+                    [33mclass[39m=[32m&quot;bg-gray-100 border-b border-gray-200&quot;[39m
+                  [36m&gt;[39m
+                    [36m&lt;th[39m
+                      [33mclass[39m=[32m&quot;p-2 text-left&quot;[39m
+                    [36m&gt;[39m
+                      [0mName[0m
+                    [36m&lt;/th&gt;[39m
+                    [36m&lt;th[39m
+                      [33mclass[39m=[32m&quot;p-2 text-left&quot;[39m
+                    [36m&gt;[39m
+                      [0mCategory[0m
+                    [36m&lt;/th&gt;[39m
+                    [36m&lt;th[39m
+                      [33mclass[39m=[32m&quot;p-2 text-left&quot;[39m
+                    [36m&gt;[39m
+                      [0mStock[0m
+                    [36m&lt;/th&gt;[39m
+                    [36m&lt;th[39m
+                      [33mclass[39m=[32m&quot;p-2 text-left&quot;[39m
+                    [36m&gt;[39m
+                      [0mRegular Price[0m
+                    [36m&lt;/th&gt;[39m
+                    [36m&lt;th[39m
+                      [33mclass[39m=[32m&quot;p-2 text-left&quot;[39m
+                    [36m&gt;[39m
+                      [0mSale Price[0m
+                    [36m&lt;/th&gt;[39m
+                  [36m&lt;/tr&gt;[39m
+                [36m&lt;/thead&gt;[39m
+                [36m&lt;tbody&gt;[39m
+                  [36m&lt;tr[39m
+                    [33mclass[39m=[32m&quot;border-b border-gray-200&quot;[39m
+                  [36m&gt;[39m
+                    [36m&lt;td[39m
+                      [33mclass[39m=[32m&quot;p-2&quot;[39m
+                    [36m&gt;[39m
+                      [0mProduct1[0m
+                    [36m&lt;/td&gt;[39m
+                    [36m&lt;td[39m
+                      [33mclass[39m=[32m&quot;p-2&quot;[39m
+                    [36m&gt;[39m
+                      [0mCategory1[0m
+                    [36m&lt;/td&gt;[39m
+                    [36m&lt;td[39m
+                      [33mclass[39m=[32m&quot;p-2&quot;[39m
+                    [36m&gt;[39m
+                      [0m10[0m
+                    [36m&lt;/td&gt;[39m
+                    [36m&lt;td[39m
+                      [33mclass[39m=[32m&quot;p-2&quot;[39m
+                    [36m&gt;[39m
+                      [0m$[0m
+                      [0m100.00[0m
+                    [36m&lt;/td&gt;[39m
+                    [36m&lt;td[39m
+                      [33mclass[39m=[32m&quot;p-2&quot;[39m
+                    [36m&gt;[39m
+                      [0m$[0m
+                      [0m80.00[0m
+                    [36m&lt;/td&gt;[39m
+                  [36m&lt;/tr&gt;[39m
+                [36m&lt;/tbody&gt;[39m
+              [36m&lt;/table&gt;[39m
+            [36m&lt;/div&gt;[39m
+          [36m&lt;/div&gt;[39m
+        [36m&lt;/div&gt;[39m
+      [36m&lt;/div&gt;[39m
+    [36m&lt;/div&gt;[39m
+  [36m&lt;/div&gt;[39m
+[36m&lt;/body&gt;[39m
+
+Ignored nodes: comments, script, style
+[36m&lt;body&gt;[39m
+  [36m&lt;div&gt;[39m
+    [36m&lt;div[39m
+      [33mclass[39m=[32m&quot;flex flex-col md:flex-row&quot;[39m
+    [36m&gt;[39m
+      [36m&lt;div[39m
+        [33mclass[39m=[32m&quot; bg-gray-800  p-4 text-white fixed&quot;[39m
+      [36m/&gt;[39m
+      [36m&lt;div[39m
+        [33mclass[39m=[32m&quot;md:ml-64 mt-12 w-full&quot;[39m
+      [36m&gt;[39m
+        [36m&lt;div[39m
+          [33mclass[39m=[32m&quot;mt-12 p-2&quot;[39m
+        [36m&gt;[39m
+          [36m&lt;div[39m
+            [33mclass[39m=[32m&quot;container mx-auto&quot;[39m
+          [36m&gt;[39m
+            [36m&lt;div[39m
+              [33mclass[39m=[32m&quot;flex justify-between items-center mb-4&quot;[39m
+            [36m&gt;[39m
+              [36m&lt;h1[39m
+                [33mclass[39m=[32m&quot;text-2xl font-bold&quot;[39m
+              [36m&gt;[39m
+                [0mProduct List[0m
+              [36m&lt;/h1&gt;[39m
+            [36m&lt;/div&gt;[39m
+            [36m&lt;div[39m
+              [33mclass[39m=[32m&quot;overflow-x-auto&quot;[39m
+            [36m&gt;[39m
+              [36m&lt;table[39m
+                [33mclass[39m=[32m&quot;min-w-full bg-white border border-gray-200&quot;[39m
+              [36m&gt;[39m
+                [36m&lt;thead&gt;[39m
+                  [36m&lt;tr[39m
+                    [33mclass[39m=[32m&quot;bg-gray-100 border-b border-gray-200&quot;[39m
+                  [36m&gt;[39m
+                    [36m&lt;th[39m
+                      [33mclass[39m=[32m&quot;p-2 text-left&quot;[39m
+                    [36m&gt;[39m
+                      [0mName[0m
+                    [36m&lt;/th&gt;[39m
+                    [36m&lt;th[39m
+                      [33mclass[39m=[32m&quot;p-2 text-left&quot;[39m
+                    [36m&gt;[39m
+                      [0mCategory[0m
+                    [36m&lt;/th&gt;[39m
+                    [36m&lt;th[39m
+                      [33mclass[39m=[32m&quot;p-2 text-left&quot;[39m
+                    [36m&gt;[39m
+                      [0mStock[0m
+                    [36m&lt;/th&gt;[39m
+                    [36m&lt;th[39m
+                      [33mclass[39m=[32m&quot;p-2 text-left&quot;[39m
+                    [36m&gt;[39m
+                      [0mRegular Price[0m
+                    [36m&lt;/th&gt;[39m
+                    [36m&lt;th[39m
+                      [33mclass[39m=[32m&quot;p-2 text-left&quot;[39m
+                    [36m&gt;[39m
+                      [0mSale Price[0m
+                    [36m&lt;/th&gt;[39m
+                  [36m&lt;/tr&gt;[39m
+                [36m&lt;/thead&gt;[39m
+                [36m&lt;tbody&gt;[39m
+                  [36m&lt;tr[39m
+                    [33mclass[39m=[32m&quot;border-b border-gray-200&quot;[39m
+                  [36m&gt;[39m
+                    [36m&lt;td[39m
+                      [33mclass[39m=[32m&quot;p-2&quot;[39m
+                    [36m&gt;[39m
+                      [0mProduct1[0m
+                    [36m&lt;/td&gt;[39m
+                    [36m&lt;td[39m
+                      [33mclass[39m=[32m&quot;p-2&quot;[39m
+                    [36m&gt;[39m
+                      [0mCategory1[0m
+                    [36m&lt;/td&gt;[39m
+                    [36m&lt;td[39m
+                      [33mclass[39m=[32m&quot;p-2&quot;[39m
+                    [36m&gt;[39m
+                      [0m10[0m
+                    [36m&lt;/td&gt;[39m
+                    [36m&lt;td[39m
+                      [33mclass[39m=[32m&quot;p-2&quot;[39m
+                    [36m&gt;[39m
+                      [0m$[0m
+                      [0m100.00[0m
+                    [36m&lt;/td&gt;[39m
+                    [36m&lt;td[39m
+                      [33mclass[39m=[32m&quot;p-2&quot;[39m
+                    [36m&gt;[39m
+                      [0m$[0m
+                      [0m80.00[0m
+                    [36m&lt;/td&gt;[39m
+                  [36m&lt;/tr&gt;[39m
+                [36m&lt;/tbody&gt;[39m
+              [36m&lt;/table&gt;[39m
+            [36m&lt;/div&gt;[39m
+          [36m&lt;/div&gt;[39m
+        [36m&lt;/div&gt;[39m
+      [36m&lt;/div&gt;[39m
+    [36m&lt;/div&gt;[39m
+  [36m&lt;/div&gt;[39m
+[36m&lt;/body&gt;[39m">
+        <![CDATA[Error: Unable to find an element with the text: No products found. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m&lt;body&gt;[39m
+  [36m&lt;div&gt;[39m
+    [36m&lt;div[39m
+      [33mclass[39m=[32m&quot;flex flex-col md:flex-row&quot;[39m
+    [36m&gt;[39m
+      [36m&lt;div[39m
+        [33mclass[39m=[32m&quot; bg-gray-800  p-4 text-white fixed&quot;[39m
+      [36m/&gt;[39m
+      [36m&lt;div[39m
+        [33mclass[39m=[32m&quot;md:ml-64 mt-12 w-full&quot;[39m
+      [36m&gt;[39m
+        [36m&lt;div[39m
+          [33mclass[39m=[32m&quot;mt-12 p-2&quot;[39m
+        [36m&gt;[39m
+          [36m&lt;div[39m
+            [33mclass[39m=[32m&quot;container mx-auto&quot;[39m
+          [36m&gt;[39m
+            [36m&lt;div[39m
+              [33mclass[39m=[32m&quot;flex justify-between items-center mb-4&quot;[39m
+            [36m&gt;[39m
+              [36m&lt;h1[39m
+                [33mclass[39m=[32m&quot;text-2xl font-bold&quot;[39m
+              [36m&gt;[39m
+                [0mProduct List[0m
+              [36m&lt;/h1&gt;[39m
+            [36m&lt;/div&gt;[39m
+            [36m&lt;div[39m
+              [33mclass[39m=[32m&quot;overflow-x-auto&quot;[39m
+            [36m&gt;[39m
+              [36m&lt;table[39m
+                [33mclass[39m=[32m&quot;min-w-full bg-white border border-gray-200&quot;[39m
+              [36m&gt;[39m
+                [36m&lt;thead&gt;[39m
+                  [36m&lt;tr[39m
+                    [33mclass[39m=[32m&quot;bg-gray-100 border-b border-gray-200&quot;[39m
+                  [36m&gt;[39m
+                    [36m&lt;th[39m
+                      [33mclass[39m=[32m&quot;p-2 text-left&quot;[39m
+                    [36m&gt;[39m
+                      [0mName[0m
+                    [36m&lt;/th&gt;[39m
+                    [36m&lt;th[39m
+                      [33mclass[39m=[32m&quot;p-2 text-left&quot;[39m
+                    [36m&gt;[39m
+                      [0mCategory[0m
+                    [36m&lt;/th&gt;[39m
+                    [36m&lt;th[39m
+                      [33mclass[39m=[32m&quot;p-2 text-left&quot;[39m
+                    [36m&gt;[39m
+                      [0mStock[0m
+                    [36m&lt;/th&gt;[39m
+                    [36m&lt;th[39m
+                      [33mclass[39m=[32m&quot;p-2 text-left&quot;[39m
+                    [36m&gt;[39m
+                      [0mRegular Price[0m
+                    [36m&lt;/th&gt;[39m
+                    [36m&lt;th[39m
+                      [33mclass[39m=[32m&quot;p-2 text-left&quot;[39m
+                    [36m&gt;[39m
+                      [0mSale Price[0m
+                    [36m&lt;/th&gt;[39m
+                  [36m&lt;/tr&gt;[39m
+                [36m&lt;/thead&gt;[39m
+                [36m&lt;tbody&gt;[39m
+                  [36m&lt;tr[39m
+                    [33mclass[39m=[32m&quot;border-b border-gray-200&quot;[39m
+                  [36m&gt;[39m
+                    [36m&lt;td[39m
+                      [33mclass[39m=[32m&quot;p-2&quot;[39m
+                    [36m&gt;[39m
+                      [0mProduct1[0m
+                    [36m&lt;/td&gt;[39m
+                    [36m&lt;td[39m
+                      [33mclass[39m=[32m&quot;p-2&quot;[39m
+                    [36m&gt;[39m
+                      [0mCategory1[0m
+                    [36m&lt;/td&gt;[39m
+                    [36m&lt;td[39m
+                      [33mclass[39m=[32m&quot;p-2&quot;[39m
+                    [36m&gt;[39m
+                      [0m10[0m
+                    [36m&lt;/td&gt;[39m
+                    [36m&lt;td[39m
+                      [33mclass[39m=[32m&quot;p-2&quot;[39m
+                    [36m&gt;[39m
+                      [0m$[0m
+                      [0m100.00[0m
+                    [36m&lt;/td&gt;[39m
+                    [36m&lt;td[39m
+                      [33mclass[39m=[32m&quot;p-2&quot;[39m
+                    [36m&gt;[39m
+                      [0m$[0m
+                      [0m80.00[0m
+                    [36m&lt;/td&gt;[39m
+                  [36m&lt;/tr&gt;[39m
+                [36m&lt;/tbody&gt;[39m
+              [36m&lt;/table&gt;[39m
+            [36m&lt;/div&gt;[39m
+          [36m&lt;/div&gt;[39m
+        [36m&lt;/div&gt;[39m
+      [36m&lt;/div&gt;[39m
+    [36m&lt;/div&gt;[39m
+  [36m&lt;/div&gt;[39m
+[36m&lt;/body&gt;[39m
+    at waitForWrapper (C:\Users\tarun_kumar\OneDrive - EPAM\n\Epm.FarmRoots.UI.ReactClient\node_modules\@testing-library\dom\dist\wait-for.js:163:27)
+    at C:\Users\tarun_kumar\OneDrive - EPAM\n\Epm.FarmRoots.UI.ReactClient\node_modules\@testing-library\dom\dist\query-helpers.js:86:33
+    at C:\Users\tarun_kumar\OneDrive - EPAM\n\Epm.FarmRoots.UI.ReactClient\src\components\__tests__\VendorProducts.test.tsx:95:26
+    at file:///C:/Users/tarun_kumar/OneDrive%20-%20EPAM/n/Epm.FarmRoots.UI.ReactClient/node_modules/@vitest/runner/dist/index.js:146:14
+    at file:///C:/Users/tarun_kumar/OneDrive%20-%20EPAM/n/Epm.FarmRoots.UI.ReactClient/node_modules/@vitest/runner/dist/index.js:61:7
+    at runTest (file:///C:/Users/tarun_kumar/OneDrive%20-%20EPAM/n/Epm.FarmRoots.UI.ReactClient/node_modules/@vitest/runner/dist/index.js:960:17)
+    at runSuite (file:///C:/Users/tarun_kumar/OneDrive%20-%20EPAM/n/Epm.FarmRoots.UI.ReactClient/node_modules/@vitest/runner/dist/index.js:1116:15)
+    at runSuite (file:///C:/Users/tarun_kumar/OneDrive%20-%20EPAM/n/Epm.FarmRoots.UI.ReactClient/node_modules/@vitest/runner/dist/index.js:1116:15)
+    at runFiles (file:///C:/Users/tarun_kumar/OneDrive%20-%20EPAM/n/Epm.FarmRoots.UI.ReactClient/node_modules/@vitest/runner/dist/index.js:1173:5)
+    at startTests (file:///C:/Users/tarun_kumar/OneDrive%20-%20EPAM/n/Epm.FarmRoots.UI.ReactClient/node_modules/@vitest/runner/dist/index.js:1182:3)]]>
+      </error>
+    </testCase>
+  </file>
+  <file path="src\components\__tests__\VendorProfile.test.tsx">
+    <testCase name="VendorProfile - displays loading shimmer when loading" duration="81" />
+    <testCase name="VendorProfile - displays profile data when available" duration="51" />
+  </file>
+  <file path="src\components\__tests__\vendor\VendorEditPage.test.tsx">
+    <testCase name="demo" duration="2" />
+  </file>
+</testExecutions>
